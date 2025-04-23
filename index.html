@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discover Australia</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <button onclick="showTab('home')">
+                    Australia
+                    <img src="flag.jpg" alt="Australian Flag" class="flag-icon">
+                </button>
+            </div>
+            <div class="nav-buttons">
+                <button onclick="showTab('introduction')">Introduction</button>
+                <button onclick="showTab('tourist-spots')">Tourist Spots</button>
+                <button onclick="showTab('famous-food')">Famous Foods</button>
+            </div>
+        </div>
+
+        <div id="home" class="tab">
+            <h1>Welcome to Australia!</h1>
+            <p>Explore the beauty, diversity, and flavors of the Land Down Under.</p>
+            <p>From world-renowned landmarks to local delicacies, dive into the unique experiences Australia has to offer.</p>
+            <img src="aussie.jpg" alt="Australia Coastline" class="img">
+        </div>
+
+        <div id="introduction" class="tab">
+            <h1>About Australia</h1>
+            <p>Australia, officially known as the Commonwealth of Australia, is a vast country in the Southern Hemisphere, surrounded by the Pacific and Indian Oceans. It boasts diverse landscapes ranging from sun-baked deserts to lush rainforests and is home to unique wildlife such as kangaroos, koalas, and the iconic platypus. The capital, Canberra, represents the political heart of the nation with landmarks like the Parliament House, while cultural and economic hubs such as Sydney and Melbourne showcase vibrant city life. Australia also celebrates a rich Aboriginal heritage, with sacred sites like Uluru and ancient art that reflect its deep cultural roots. Whether exploring the Great Barrier Reef's underwater wonders or enjoying urban sophistication, Australia offers an irresistible blend of natural beauty and cultural treasures.</p>
+            <h3>Major Cities:</h3>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Canberra:</b> <br>Canberra, the capital city of Australia, is a hub for political, cultural, and historical significance. Nestled among lush greenery and scenic landscapes, it is home to iconic landmarks such as the Parliament House and the Australian War Memorial. Visitors can explore the National Gallery of Australia, showcasing an extensive collection of Indigenous and contemporary art, or relax by Lake Burley Griffin, perfect for outdoor activities like kayaking and cycling. Canberra's carefully planned design and laid-back atmosphere make it a must-visit destination for history buffs and nature lovers alike.</p>
+                </div>
+                <img src="canberra.jpg" alt="Canberra" class="thumbnail">
+            </div>
+            <div class="info-block reverse">
+                <img src="sydney.jpg" alt="Sydney" class="thumbnail">
+                <div class="text">
+                    <p><b>Sydney:</b> <br>Sydney, Australia's largest city, is famous for its vibrant culture and picturesque landscapes. The iconic Sydney Opera House, with its sail-like design, is a symbol of architectural brilliance, while the Sydney Harbour Bridge offers panoramic views of the city and its stunning harbor. Visitors can explore the historic Rocks district, packed with charming cobblestone streets and boutique shops, or relax at Bondi Beach, known for its golden sands and excellent surf. Sydney is a lively mix of urban sophistication and natural beauty.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Melbourne:</b> <br>Melbourne is renowned as the cultural capital of Australia, celebrated for its diverse arts scene, world-class dining, and rich sporting traditions. The city is dotted with laneways adorned with colorful street art and is a paradise for coffee enthusiasts, with numerous cafes offering exquisite blends. Visitors can immerse themselves in history at the Melbourne Museum or enjoy a game of Australian Rules Football at the iconic Melbourne Cricket Ground. Melbourne’s dynamic atmosphere and thriving creative industries make it a truly unforgettable destination.</p>
+                </div>
+                <img src="melbourne.jpg" alt="Melbourne" class="thumbnail">
+            </div>
+        </div>
+
+        <div id="tourist-spots" class="tab">
+            <h1>Tourist Spots in Australia</h1>
+            <p>Australia is a land of captivating destinations that draw millions of visitors each year. From the natural wonders of the Great Barrier Reef, rich in marine life and coral formations, to the sacred Uluru, which holds deep Aboriginal cultural significance, the country offers a diverse range of experiences. Visitors can enjoy the iconic Sydney Opera House, explore Kakadu National Park with its ancient rock art and abundant wildlife, or relax on the golden sands of Bondi Beach. With a mix of urban sophistication and natural beauty, Australia's must-see places promise unforgettable journeys and endless discovery.</p>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Sydney Opera House:</b> <br>The Sydney Opera House is one of the most recognizable landmarks in the world, celebrated for its innovative design that mimics the sails of a ship. It hosts over 1,500 performances annually, including opera, theater, and concerts, making it a global center for arts and entertainment. A guided tour of the Opera House offers insight into its history, architecture, and the creativity that brought this architectural marvel to life.</p>
+                </div>
+                <img src="sop.jpg" alt="Sydney Opera House" class="thumbnail">
+            </div>
+            <div class="info-block reverse">
+                <img src="gbr.jpg" alt="Great Barrier Reef" class="thumbnail">
+                <div class="text">
+                    <p><b>Great Barrier Reef:</b> <br>The Great Barrier Reef is a UNESCO World Heritage Site and the largest coral reef system on Earth, stretching over 2,300 kilometers. It’s a haven for marine life, home to thousands of species of fish, corals, and other aquatic creatures. Visitors can snorkel, scuba dive, or take a glass-bottom boat tour to experience the reef's unparalleled underwater beauty. Conservation efforts ensure that this natural wonder remains a vibrant destination for generations to come.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Uluru:</b> <br>Uluru, also known as Ayers Rock, is a massive sandstone monolith with deep cultural and spiritual significance for the Anangu people, the traditional custodians of the land. Rising dramatically from the flat desert landscape, Uluru changes color throughout the day, glowing red during sunrise and sunset. Visitors can learn about Aboriginal culture and dreamtime stories through guided tours, making Uluru a profound and enriching experience.</p>
+                </div>
+                <img src="uluru.jpg" alt="Uluru" class="thumbnail">
+            </div>
+            <div class="info-block reverse">
+                <img src="bondi.jpg" alt="Bondi Beach" class="thumbnail">
+                <div class="text">
+                    <p><b>Bondi Beach:</b> <br>Bondi Beach is more than just a stretch of golden sand—it’s a way of life. This world-famous beach is a hotspot for surfers, sunbathers, and fitness enthusiasts who come to enjoy its vibrant energy. Take a stroll along the Bondi to Coogee coastal walk, which offers stunning views of the Pacific Ocean, or relax at one of the trendy cafes nearby. Bondi Beach is the perfect blend of relaxation and excitement.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Kakadu National Park:</b> <br>Kakadu National Park is a treasure trove of biodiversity and ancient history. Spanning nearly 20,000 square kilometers, it is one of Australia's largest national parks, featuring wetlands, waterfalls, and rugged escarpments. The park is home to unique wildlife, including crocodiles and migratory birds, as well as ancient Aboriginal rock art sites that date back tens of thousands of years. A visit to Kakadu offers an unforgettable journey into Australia's natural and cultural heritage.</p>
+                </div>
+                <img src="kakadu.jpg" alt="Kakadu National Park" class="thumbnail">
+            </div>
+        </div>
+
+        <div id="famous-food" class="tab">
+            <h1>Australian Foods</h1>
+            <p>Australia is a melting pot of flavors, reflecting its rich history, multicultural influences, and abundance of fresh local ingredients. From iconic national dishes to fusion creations, the culinary scene in Australia offers a diverse array of flavors that cater to every palate. Whether you’re indulging in beloved traditional foods or experimenting with modern twists on classics, exploring Australia's cuisine is an adventure in itself.</p>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Vegemite Toast:</b> <br>Vegemite Toast is a quintessentially Australian breakfast choice that evokes strong opinions. The savory spread, made from yeast extract, has a rich, salty flavor that pairs perfectly with a layer of butter on crispy toast. Often considered an acquired taste, it’s a staple in Aussie households and a must-try for adventurous eaters.</p>
+                </div>
+                <img src="vegemite.jpg" alt="Vegemite Toast" class="thumbnail">
+            </div>
+            <div class="info-block reverse">
+                <img src="lamingtons.jpg" alt="Lamingtons" class="thumbnail">
+                <div class="text">
+                    <p><b>Lamingtons:</b> <br>Lamingtons are beloved Australian desserts consisting of soft sponge cake cubes coated in chocolate and rolled in shredded coconut. Sometimes served with a layer of cream or jam in the center, these treats are perfect with a cup of tea. Lamingtons are a staple at community fundraisers and celebrations across the country..</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Meat Pie:</b> <br>A symbol of Australian comfort food, the Meat Pie is a flaky pastry filled with a rich mixture of minced meat and gravy. Typically enjoyed with tomato sauce on top, meat pies are a favorite at sporting events, bakeries, and casual gatherings. It’s the go-to snack that embodies Australia's love for hearty and satisfying flavors.</p>
+                </div>
+                <img src="meatpie.jpg" alt="Meat Pie" class="thumbnail">
+            </div>
+            <div class="info-block reverse">
+                <img src="chiko.webp" alt="Chiko Roll" class="thumbnail">
+                <div class="text">
+                    <p><b>Chiko Roll:</b> <br>The Chiko Roll is an iconic Australian snack inspired by Chinese spring rolls but with a unique twist. It features a filling of beef, cabbage, and vegetables wrapped in a crispy dough casing. Designed to be eaten on the go, the Chiko Roll became a favorite at football games and food stalls and remains a nostalgic treat for Australians.</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="text">
+                    <p><b>Barramundi:</b> <br>Barramundi, a prized fish in Australian cuisine, is celebrated for its mild, buttery flavor and tender texture. Whether grilled, fried, or baked, Barramundi is often served with fresh lemon and herbs, highlighting its natural taste. As a versatile and sustainable seafood option, it’s a favorite on menus across Australia.</p>
+                </div>
+                <img src="barramundi.jpg" alt="Barramundi" class="thumbnail">
+            </div>
+        </div>
+
+        <script>
+            function showTab(tabName) {
+                document.getElementById('home').style.display = 'none';
+                document.getElementById('introduction').style.display = 'none';
+                document.getElementById('tourist-spots').style.display = 'none';
+                document.getElementById('famous-food').style.display = 'none';
+                document.getElementById(tabName).style.display = 'block';
+            }
+        </script>
+    </body>
+</html>
